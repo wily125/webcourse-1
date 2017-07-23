@@ -20,8 +20,7 @@ excerpt_separator: "[-----]"
 
 # mode: dev
 mode: product
-crturl: https://htchutw.github.io/webcourse/
-devurl: http://localhost:4000/
+url: https://htchutw.github.io/webcourse/
 name: Web課程
 title: 網頁系統開發課程
 description: "網頁系統開發課程 weblog"
