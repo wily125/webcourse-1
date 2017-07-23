@@ -1,0 +1,53 @@
+---
+title: "(3)Bootstrap"
+layout: post
+category: [Web basics]
+tags: [git, markdown]
+excerpt: "Bootstrap...。"
+---
+
+建立github帳號及使用github做blog。GitHub是一個透過Git進行版本控制的軟體原始碼代管服務，由GitHub公司使用Ruby on Rails編寫而成。現今，全世界開源軟體大多使用github做為開發平台。而雲端平台(如Heroku, Google cloud)都支援執行github上的app程式源。同時，github網站提供GitHub Pages網頁平台以提供軟體的線上說明。github網站預設的網頁是使用markdown格式撰寫的文件(.md)，透過Jekyll引擎動態生成網頁。
+
+Jekyll是一個部落格平台，主要的功能是能夠讓人們可以在 Github 上使用靜態的 HTML 頁面建置部落格。使用者使用 markdown 語法撰寫部落格文章，Jekyll 則會透過動態模板 (Template) 將文章轉為靜態 HTML 網頁。同時 Github Pages 也提供方便的 Host 功能，只需要將你的專案存在 Github 的儲存庫 (Repository) 中，就能夠讓 Github 來協助我們作 Host 的動作，不用再費其他心思。"
+
+# 課程目標
+- Github 帳號/介面/指令
+- Github pages/Jekyll
+
+# 我的學習
+
+##Github
+
+
+
+```php
+<?php
+   //
+   //
+   //
+?>
+```
+##Github pages
+
+```php
+<?php
+   //
+   //
+   //
+?>
+```
+
+
+[1]: https://github.com/        "GitHub"
+[2]: https://pages.github.com/  "GitHub Pages"
+[3]: https://jekyllrb.com/      "Jekyll"
+[4]: http://markdown.tw         "Markdown文件"
+[5]: http://dillinger.io/       "Dillinger"
+
+
+
+
+
+
+
+
