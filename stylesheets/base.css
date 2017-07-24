@@ -4210,9 +4210,9 @@ ul {
   color: white;
 }
 #l-header h1 {
-  margin-top: 0;
+  margin-top: 20;
   margin-bottom: 35px;
-  font: normal small-caps bold 17rem/9.5rem "verdana",helvetica, sans-serif;
+  font: normal small-caps bold 13rem/7.5rem "verdana",helvetica, sans-serif;
   letter-spacing: -1rem;
   margin-left: -2rem;
 }
