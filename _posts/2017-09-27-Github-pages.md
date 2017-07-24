@@ -1,7 +1,7 @@
 ---
 title: "(4)使用github做blog"
 layout: post
-category: [Class exercise]
+category: [ClassTopic]
 tags: [git, markdown]
 excerpt: "使用github做blog。github網站提供GitHub Pages網頁平台以提供軟體的線上說明。github網站預設的網頁是使用markdown格式撰寫的文件(.md)，透過Jekyll引擎動態生成網頁。"
 ---
