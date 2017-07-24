@@ -4210,11 +4210,11 @@ ul {
   color: white;
 }
 #l-header h1 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
   font: normal small-caps bold 10rem/7.5rem "verdana",helvetica, sans-serif;
-  letter-spacing: 1rem;
-  margin-left: 2rem;
+  letter-spacing: 0.5rem;
+  margin-left: -1rem;
 }
 #l-header p {
   font: normal bold 3rem/1.5rem "verdana",sans-serif;
