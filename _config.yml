@@ -15,7 +15,6 @@ gems: [jekyll-paginate]
 paginate: 7
 paginate_path: "page:num"
 layout: post
-permalink: /webcourse/:categories/:title"
 excerpt_separator: "[-----]"
 
 # mode: dev
