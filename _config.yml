@@ -20,8 +20,7 @@ excerpt_separator: "[-----]"
 
 # mode: dev
 mode: product
-baseurl: "/webclass" # the subpath of your site, e.g. /blog
-url: "https://htchutw.github.io/" # the base hostname & protocol for your site
+url: "https://htchutw.github.io/webclass/" # the base hostname & protocol for your site
 github_username:  htchutw
 name: Web課程
 title: 網頁系統開發課程
