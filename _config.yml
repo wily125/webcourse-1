@@ -16,6 +16,7 @@ paginate: 7
 paginate_path: "page:num"
 layout: post
 excerpt_separator: "[-----]"
+permalink: /:categories/:year/:month/:day/:title.html
 
 # mode: dev
 mode: product
