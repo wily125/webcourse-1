@@ -11,15 +11,12 @@ redcarpet:
 #     input: GFM
 #     syntax_highlighter: rouge
 
-gems: [octopress-paginate]
-paginate:
-  collection:   posts
-  per_page:     10             # maximum number of items per page
-  limit:        5              # Maximum number of pages to paginate (false for unlimited)
-  permalink:    /page:num/     # pagination path (relative to template page)
-  title_suffix: " - page :num" # Append to template's page title
-  reversed:     true          # Reverse the order of the documents
-
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "/page:num/"
+layout: post
+excerpt_separator: "[-----]"
+permalink: /:year/:month/:day/:title.html
 
 # mode: dev
 mode: product
