@@ -12,8 +12,8 @@ redcarpet:
 #     syntax_highlighter: rouge
 
 gems: [jekyll-paginate]
-paginate: 7
-paginate_path: "page:num"
+paginate: 10
+paginate_path: "/page:num/"
 layout: post
 excerpt_separator: "[-----]"
 permalink: /:categories/:year/:month/:day/:title.html
