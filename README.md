@@ -1,8 +1,7 @@
-# Intro
+# 介紹
+2017 亞洲大學資訊工程系課程記錄blog
 
-My personal blog, built with Jekyll and Github page.
-
-# If you want to use this theme
+# 學生任務
 
 1. fork it
 2. **Important**: If you want to use [Baidu Statistics][baiduTongji] functionality, remember to replace the content of `/javascripts/baidu_statistics.js` with your own. If you don't want to use it or don't understand what I'm talking about, just comment out line 43 of `/_includes/footer.html`. 
@@ -11,5 +10,5 @@ My personal blog, built with Jekyll and Github page.
 
 That's it
 
-[baiduTongji]: http://tongji.baidu.com/web/welcome/login
+
 [disqus]: https://disqus.com/
