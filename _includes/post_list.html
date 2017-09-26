@@ -12,20 +12,6 @@
 {% endif %}
 
 {% if displayPagi or paginator %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl}}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
-
 <div class="row" id="paginator">
     {% if paginator.total_pages > 1 %}
         {% if paginator.previous_page %}
@@ -38,7 +24,7 @@
             {% elsif page == 1 %}
                 <a href="{{ site.baseurl }}">{{ page }}</a>
             {% else %}
-                <a href="{{ site.paginate_path | prepend: site.baseurl  | replace: ':num', page }}">{{ page }}</a>
+                <a href="{{ site.paginate_path | prepend: site.baseurl  | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
             {% endif %}
         {% endfor %}
 
