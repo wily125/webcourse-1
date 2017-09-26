@@ -1,9 +1,9 @@
 {% if paginator %}
-    {% for post in paginator.posts %}
+    {% for post in paginator.posts reversed %}
         {% include post_list_item.html %}
     {% endfor %}
 {% else %}
-    {% for post in include.posts %}
+    {% for post in include.posts reversed %}
         {% if post.tags or post.category %}
             {% include post_list_item.html %}
             {% assign displayPagi = true %}
